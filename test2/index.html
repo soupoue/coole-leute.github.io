@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>CooleLeute</title>
+        <link rel="icon" type="image/png" href="xcg6Xd9ki.png">
+    </head>
+
+    <body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">CooleLeute</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="background2.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Willkommen auf </h2> 
+      <h3>Coole Leute Webseite</h3>
+      <p>Dies ist die offiziele Seite für den Coole Leute Discord Server, hier findet ihr alle Infos die ihr braucht
+      </p>
+      <a href="https://discord.gg/ycAPHH65Td">Discord</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="https://discord.gg/ycAPHH65Td">Discord</a></li>
+      <li><a href="https://disboard.org/de/server/776767224299782164">Disboard</a></li>
+      <li><a href="https://steamcommunity.com/id/soupoue?l=german">Steam</a></li>
+      <li><a href="https://www.twitch.tv/soupoue">Twitch</a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>
+
+  <script>
+      const menuToggle = document.querySelector('.toggle');
+const showcase = document.querySelector('.showcase');
+
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
+})
+  </script>
+    </body>
+</html>
